@@ -1,0 +1,56 @@
+/* LAYOUT RULES */
+/*global styles*/  
+
+html {
+	background:white;
+    margin: 0;
+	padding: 0;
+}
+body {
+    background:#FFFFFF;
+    font: 100% "Avenir Next Condensed", "Arial Narrow", sans-serif;
+	margin: 0 auto 2em;
+    padding: 2%;
+    width: 80%;
+}
+
+div {
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 2%;
+    margin-bottom:2%;
+}
+
+
+
+/*styles that change*/
+body{
+    width:80%;
+}
+
+/*mobile styles*/
+@media only screen and (max-width:480px) {
+
+body {
+	width: 95%;
+}
+}
+/*tablet styles*/
+
+
+/*MEDIA QUERIES*/
+@media only screen and (min-width:481px) and (max-width:768px) {
+
+body {
+	width: 90%;
+}
+}
+
+/*desktop styles*/
+@media only screen and (min-width:769px) and (max-width:1200px){
+	
+ body {
+ width: 80%;
+}
+}
